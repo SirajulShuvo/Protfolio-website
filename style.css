@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.offcanvas-header{
+    border-bottom: 1px solid white;
+}
+.content{
+    height: 100%;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+.content-p{
+    padding-top: 80px;
+}
+.content-container{
+    height: 100%;
+    width: 100%;
+}
+.content-row{
+    height: 100%;
+    width: 100%;
+}
+.content-row h1{
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(34, 33, 33);
+}
+.border-black{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.border-black img{
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:992px) {
+    .small-device{
+        margin-top: 100px!important;
+        margin-bottom: 50px!important;
+    }
+}
+.about-row{
+    height: 400px;
+}
+@media screen and (max-width:992px) {
+    .about-row{
+        height: 300px;
+    }
+}
+.title-link:hover{
+    color: orange!important;
+}
+.about-me{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.work{
+    background-color: #F8F8F8;
+    padding: 50px 10px;
+    border-radius: 10px;
+}
+.about-me span{
+    color: orange;
+}
+.skill{
+    padding-top: 150px;
+    font-weight: bolder;
+}
+@media screen and (max-width:992px) {
+    .skill{
+        padding-top: 50px;
+    }
+}
+.guest{
+    padding-top: 150px;
+    font-weight: bolder;
+}
+@media screen and (max-width:992px) {
+    .guest{
+        padding-top: 50px;
+    }
+}
+.guest-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid orange;
+}
+.guest-feedback{
+    padding: 30px;
+    background-color: #F8F8F8;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
