@@ -114,3 +114,56 @@
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
 }
+
+/* Service section */
+.service-row{
+    height: 400px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width:992px) {
+    .service-row{
+        height: 300px;
+    }
+}
+.service-work{
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.13);
+    padding: 30px 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition:1s step-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.service-work:hover{
+    background-color:rgb(216, 146, 15);
+    color: white;
+}
+.icon-color{
+    font-size:80px;
+    font-weight:400;
+}
+.paidwork-title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 150px 0;
+
+}
+.pricing-card{
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.13);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition:1s step-start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pricing-sub{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.special-link{
+    background-color: rgb(28, 27, 27);
+    padding: 10px;
+    border-radius: 7px;
+}
