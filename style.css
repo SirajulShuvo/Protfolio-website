@@ -47,9 +47,11 @@
     overflow: hidden;
 }
 @media screen and (max-width:575px) {
+    .border-black{
+        padding: 0!important;
+    }
     .border-black img{
-        margin-right: 0px!important ;
-        margin-left: 0px!important ;
+        margin: 0!important;
     }
 }
 @media screen and (max-width:992px) {
