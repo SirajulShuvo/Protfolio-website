@@ -241,3 +241,29 @@ form input[type=submit]{
         height: auto;
     }
 }
+/* Experiance */
+.experience-link{
+    margin-top: 150px;
+}
+.experiance-card{
+    padding: 30px 20px;
+    position: relative;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.13);
+}
+.card-icon{
+    position: absolute;
+    top: -40px;
+    left: 20px;
+}
+.card-icon i{
+    font-size: 40px;
+    background-color:#D5C455;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+.experiance-p{
+    font-size: 16px;
+    line-height: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
