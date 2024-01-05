@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* hero */
@@ -266,4 +267,25 @@ form input[type=submit]{
     font-size: 16px;
     line-height: 28px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Blog */
+.blog-link{
+    margin-top: 150px;
+}
+.card-heading{
+    font-size: 20px;
+}
+.card-heading:hover{
+    color:#D5C455;
+}
+.cardbody-linke{
+    color: #D5C455;
+    text-decoration: none;
+}
+.card-p{
+    color: black;
+}
+.card-image{
+    height: 300px;
+    object-fit: cover;
 }
