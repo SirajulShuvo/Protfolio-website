@@ -5,7 +5,6 @@
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-
 /* hero */
 .hero{
     height: 100dvh;
@@ -43,106 +42,111 @@
     font-weight: bold;
     color: rgb(34, 33, 33);
 }
-.border-black{
+
+/* slider start*/
+.slider-container{
     width: 100%;
+    text-align: center;
     height: 100%;
+    position: relative;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.border-black img{
-    margin-top: 20px;
-    overflow: hidden;
+
+.slider-container span{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    
 }
-@media screen and (max-width:575px) {
-    .border-black{
-        padding: 0!important;
-    }
-    .border-black img{
-        margin: 0!important;
-    }
+.right{
+    position: absolute;
+    top: 50%;
+    left: 0;
 }
+.left{
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+/* slider end */
 @media screen and (max-width:992px) {
     .small-device{
         margin-top: 100px!important;
         margin-bottom: 50px!important;
     }
 }
-/* About */
-.about-row{
-    height: 400px;
-}
-@media screen and (max-width:992px) {
-    .about-row{
-        height: 300px;
-    }
-}
-.title-link:hover{
+/* all page tiltle linkg */
+.all-title-link:hover{
     color: orange!important;
 }
-.about-me{
+/* About */
+.about{
+    overflow: hidden;
+}
+.about-row{
+    padding: 150px 0;
+}
+.about-content{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-.work{
+.about-work{
     background-color: #F8F8F8;
     padding: 50px 10px;
     border-radius: 10px;
 }
-.about-me span{
+.about-content span{
     color: orange;
 }
 .skill{
+    padding-top: 100px;
+}
+/* Client header */
+.client{
     padding-top: 150px;
     font-weight: bolder;
 }
-@media screen and (max-width:992px) {
-    .skill{
-        padding-top: 50px;
-    }
-}
-.guest{
-    padding-top: 150px;
-    font-weight: bolder;
-}
-@media screen and (max-width:992px) {
-    .guest{
-        padding-top: 50px;
-    }
-}
-.guest-img img{
+.client-img img{
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    border: 1px solid orange;
+    border: 5px solid orange;
 }
-.guest-feedback{
-    padding: 30px;
+.client-feedback{
+    padding: 30px 10px;
     background-color: #F8F8F8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
 }
+.about-client p{
+    line-height: 30px;
+    font-size: 1rem;
+    color: rgb(53, 52, 52);
+}
 
 /* Service section */
 .service-row{
-    height: 400px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 150px 0;
 }
-@media screen and (max-width:992px) {
-    .service-row{
-        height: 300px;
-    }
-}
-.service-work{
-    background-color: white;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.13);
+.service-card{
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
     padding: 30px 10px;
     border-radius: 10px;
     text-align: center;
     transition:1s step-start;
     font-family: Arial, Helvetica, sans-serif;
 }
-.service-work:hover{
+.service-card:hover{
     background-color:rgb(216, 146, 15);
     color: white;
 }
@@ -150,13 +154,13 @@
     font-size:80px;
     font-weight:400;
 }
-.paidwork-title{
+.course-title{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     margin: 150px 0;
 
 }
-.pricing-card{
+.course-card{
     background-color: white;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.13);
     padding: 20px;
@@ -165,7 +169,7 @@
     transition:1s step-start;
     font-family: Arial, Helvetica, sans-serif;
 }
-.pricing-sub{
+.course-item{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -249,7 +253,7 @@ form input[type=submit]{
 .experiance-card{
     padding: 30px 20px;
     position: relative;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 15px 0 rgba(0, 0, 0, 0.13);
+    box-shadow: 0 0 10px rgba(0, 0,0, 0.1);
 }
 .card-icon{
     position: absolute;
@@ -262,11 +266,6 @@ form input[type=submit]{
     color: white;
     padding: 15px;
     border-radius: 50%;
-}
-.experiance-p{
-    font-size: 16px;
-    line-height: 28px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Blog */
 .blog-link{

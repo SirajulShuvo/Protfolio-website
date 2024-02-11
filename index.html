@@ -52,32 +52,27 @@
                         <a href="#" type="button" class="btn btn-warning btn-lg mt-4">More about me <i class="fa-solid fa-arrow-right"></i></a>
                         <a href="#" type="button" class="btn btn-outline-light text-dark border btn-lg mt-4">Contact <i class="fa-solid fa-arrow-right"></i></a>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12 border-black bg-warning ">
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active text-center">
-                                    <img class="border-black-img" src="images/352843880_1587998428702178_8274224476057776801_n-removebg-preview.png"  alt="...">
-                                  </div>
-                              <div class="carousel-item text-center">
-                                <img class="border-black-img" src="images/IMG20230422105019-removebg-preview.png" alt="...">
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                              <span class="visually-hidden">Next</span>
-                            </button>
-                          </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 bg-warning ">
+                      <div class="slider-container">
+                        <div class="myslide">
+                          <img src="./images/352843880_1587998428702178_8274224476057776801_n-removebg-preview.png" alt="">
+                        </div>
+                        <div class="myslide">
+                          <img src="./images/IMG20230422105019-removebg-preview.png" alt="">
+                        </div>                        <div class="myslide">
+                          <img src="./images/352843880_1587998428702178_8274224476057776801_n-removebg-preview.png" alt="">
+                        </div>
+                        <span class="right"  onclick="prevNext(-1)"> < </span>
+                        <span class="left" onclick="prevNext(1)"> > </span>
+                      </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     
-
+    <!-- vanila js -->
+    <script src="./index.js"></script>
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
